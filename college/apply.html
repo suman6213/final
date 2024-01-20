@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhaktapur Multiple Campus</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- ========== Start NAVBAR Section ========== -->
+  <header class="nav-section">
+    <div class="nav container">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="">
+            <!-- Bhaktapur Multiple Campus -->
+            BMC
+        </a>
+
+        <ul class="navbar">
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html#news">news & events</a></li>
+            <li><a href="index.html#courses">course</a></li>
+            <li><a href="index.html#scholorship">scholorship</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+
+        <div class="btn">
+            <i class='bx bx-mail-send'></i>
+            <a href="apply.html">Apply Now</a>
+        </div>
+
+        <i class="bx bx-menu" id="menu"></i>
+    </div>
+</header>
+  <!-- ========== End NAVBAR Section ========== -->
+
+  <section class="container apply-box-center">
+    <div class="apply-container">
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter full name" required />
+        </div>
+        <div class="input-box">
+          <label>Email Address</label>
+          <input type="email" placeholder="Enter email address" required />
+        </div>
+        <div class="column">
+          <div class="input-box">
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter phone number" required />
+          </div>
+          <div class="input-box">
+            <label>Birth Date</label>
+            <input type="date" placeholder="Enter birth date" min="1900-01-01" max="2024-12-30" required />
+          </div>
+        </div>
+        <div class="input-box">
+          <label>Select a Course</label>
+          <div class="select-box">
+            <select>
+              <option hidden>Select a Course</option>
+              <option value="BA">Bachelor in Arts (BA)</option>
+              <option value="BBS">Bachelor in Business Studies (BBS)</option>
+              <option value="BSc Physical">Bachelor in Science (BSc Physical)</option>
+              <option value="BSc Biology">Bachelor in Science (BSc Biology)</option>
+              <option value="BBA">Bachelor of Business Administration (BBA)</option>
+              <option value="BBM">Bachelor of Business Management (BBM)</option>
+              <option value="">Bachelor of Information Management (BIM)</option>
+              <option value="BSC_CSIT">Bachelor in Science, Computer System and Information Technology (BSC CSIT)
+              </option>
+              <option value="BIT">Bachelor in Information Technology (BIT)</option>
+              <option value="BCA">Bachelor in Computer Application (BCA)</option>
+              <option value="MBS">Master of Business Studies (MBS)</option>
+              <option value="MA">Master in Arts (MA)</option>
+              <option value="MIT">Master in Information Technology (MIT)</option>
+            </select>
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3>Gender</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">Male</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">Female</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">Prefer not to say</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>Address</label>
+          <input type="text" placeholder="Enter street address" required />
+          <input type="text" placeholder="Enter street address line 2" required />
+          <!-- <div class="column">
+              <input type="text" placeholder="Enter your city" required />
+            </div> -->
+          <div class="column">
+            <input type="text" placeholder="Enter your region" required />
+            <input type="number" placeholder="Enter postal code" required />
+          </div>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========== Start FOOTER Section ========== -->
+
+  <section class="footer">
+    <div class="footer-container container">
+      <h2>BMC</h2>
+      <div class="footer-box">
+        <h3>Quick Links</h3>
+        <li><a href="#">Infrastructure</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Our Facilities</a></li>
+        <li><a href="#">FAQs</a></li>
+      </div>
+
+      <div class="footer-box">
+        <h3>Faculty</h3>
+        <li><a href="#">Institute of Science and Technology</a></li>
+        <li><a href="#">Faculty of Management</a></li>
+        <li><a href="#">Faculty of Humanities and Social Science</a></li>
+      </div>
+
+      <div class="footer-box">
+        <h3>Contact</h3>
+        <li><a href="#">016610200</a></li>
+        <li><a href="#">info@bmc.edu.np</a></li>
+        <div class="social">
+          <a href=""><i class='bx bxl-facebook'></i></a>
+          <a href=""><i class='bx bxl-twitter'></i></a>
+          <a href=""><i class='bx bxl-instagram'></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2023 Bhaktapur Multiple Campus. All Right Reserved</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="wrapper">
+      <div class="button">
+        <a href="">
+          <div class="icon">
+            <i class="bx bx-question-mark"></i>
+          </div>
+          <span>Get Help</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== End FOOTER Section ========== -->
+  <script src="main.js"></script>
+</body>
+
+</html>
